@@ -1,7 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="My Portfolio Website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section style="text-align: center; font-family: 'Iceland', sans-serif;">
+        <h1 style="font-size: 4rem; background: linear-gradient(to bottom, #fc4747, #511364); -webkit-background-clip: text; color: transparent;">
+            Edgar Ustian
+        </h1>
+    </section>
+
+    <section id="about" class="highlight-section" style="display: flex; gap: 2rem;">
+        <div style="flex: 1;">
+            <h2>About Me</h2>
+            <ul>
+                <li>I'm a software engineer. I enjoy programming and learning new technologies.</li>
+                <li>From building websites to developing software, I love creating and solving problems with code.</li>
+            </ul>
+        </div>
+        <div style="flex: 1;">
+            <h2>Background &amp; Skills</h2>
+            <p>Share your background and highlight your skills.</p>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <!-- Example project card -->
+      <div class="project-card">
+        <img src="images/project1.png" alt="Project 1 Screenshot" />
+        <h3>Project Title</h3>
+        <p>A brief description of your project goes here.</p>
+        <a href="https://github.com/username/project1" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+      <!-- Add more project cards as needed -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Skill A</li>
+        <li>Skill B</li>
+        <li>Skill C</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at <strong>your.email@example.com</strong></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Edgar Ustian. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to your JavaScript file -->
+  <script src="scripts/main.js"></script>
 </body>
 </html>
